@@ -292,7 +292,7 @@ void CompareToB() {
         std::cout << "the sum of digits of your number is a multiple of 7" <<std::endl;
     }
     else {
-        std::cout << "the sum of digits of your number is a multiple of 7" <<std::endl;
+        std::cout << "the sum of digits of your number is NOT a multiple of 7" <<std::endl;
     }
 
 }
