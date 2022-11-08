@@ -281,7 +281,7 @@ void CompareToB() {
     std::cin >> num;
     std::cout << "enter a number 'b' to compare: " <<std::endl;
     std::cin >> b;
-    if (num/100 * (num/10)%10 * num%10 > b) {
+    if ((num/100) * ((num/10)%10) * (num%10) > b) {
         std::cout << "multiplying the digits of your number is greater than the number 'b'" <<std::endl;
     }
     else {
